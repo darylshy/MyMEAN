@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2.red{
+    color: red;
+}
+
+p {
+    font-weight: bold;
+}
+span{
+    text-decoration: underline;
+    margin-left: -10px;
+}
+li{
+    list-style: decimal;
+    margin-left: 10px;
+}
+input{
+    display: block;
+}

@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    h1(style='padding-left:20px') Hello #{user}
+    hr
+    div(style='padding-left:20px')
+        h2.red Welcome to #{user}'s awesome page!
+        h2 Please Fill Out the Form Below
+        form(action='users' method='post' id='myForm')
+            label(for='firstname') First Name
+            input(type='text' name='firstname' id='firstname' placeholder='enter your first name')
+
+            label(for='lastname') Last Name
+            input(type='text' name='lastname' id='lastname' placeholder='enter your last name')
+
+            label(for='street') Street
+            input(type='text' name='street' id='street' placeholder='enter street name')
+
+            label(for='streetnumber') Street Number
+            input(type='text' name='streetnumber' id='streetnumber' placeholder='enter your street number')
+
+            label(for='city') City
+            input(type='text' name='city' id='city' placeholder='enter your city')
+
+            label(for='state') State
+            input(type='text' name='state' id='state' placeholder='enter your state')
+
+            label(for='zip') Zip
+            input(type='text' name='zip' id='zip' placeholder='enter your zip')
+            button(type=submit) Submit
